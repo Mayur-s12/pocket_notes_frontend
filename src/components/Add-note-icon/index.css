@@ -1,0 +1,13 @@
+.svg-wrapper {
+  height: 64px;
+  width: 64px;
+  background-color: #16008b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.image {
+  height: 30px;
+}
