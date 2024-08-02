@@ -1,0 +1,32 @@
+.notes-bar-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #001f8b;
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  height: 90px;
+}
+
+.display-group {
+  display: flex;
+  align-items: center;
+  color: white;
+  column-gap: 20px;
+}
+
+.avatar {
+  height: 59px;
+  width: 59px;
+  font-size: 24px;
+  font-family: Roboto;
+  font-family: 500;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

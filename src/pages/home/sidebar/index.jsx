@@ -17,7 +17,7 @@ const colors = [
   { color: "#6691FF" },
 ];
 
-const Sidebar = () => {
+const Sidebar = ({ setSelectedGroup }) => {
   const [groups, setGroups] = useState([]);
   const [open, setOpen] = useState(false);
 
@@ -64,7 +64,11 @@ const Sidebar = () => {
       <Text>Pocket Notes</Text>
       <div className='scrollable-part'>
         {groups.map((item, index) => (
-          <div key={index} className='list-item'>
+          <div
+            key={index}
+            className='list-item'
+            onClick={() => setSelectedGroup(item)}
+          >
             <div
               style={{ backgroundColor: `${item.color}` }}
               className='avatar-container'
