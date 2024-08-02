@@ -1,0 +1,8 @@
+.bar-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  row-gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
