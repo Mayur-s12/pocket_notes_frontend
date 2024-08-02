@@ -20,10 +20,6 @@
   opacity: 0px;
 }
 
-.scrollable-part::-webkit-scrollbar {
-  display: none;
-}
-
 .icon-container {
   display: flex;
   justify-content: flex-end;
