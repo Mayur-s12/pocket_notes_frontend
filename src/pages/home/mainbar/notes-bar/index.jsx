@@ -7,7 +7,7 @@ import Text from "../../../../components/Text";
 import axios from "axios";
 import { BASE_URL } from "../../../../config/api";
 
-const NotesBar = ({ selectedGroup, notes }) => {
+const NotesBar = ({ selectedGroup, notes, setRefetchNotes }) => {
   const [noteContent, setNoteContent] = useState("");
   const [isDisabled, setIsDisabled] = useState(true);
 
@@ -26,7 +26,7 @@ const NotesBar = ({ selectedGroup, notes }) => {
           },
         }
       );
-
+      setRefetchNotes(true);
       setNoteContent("");
       setIsDisabled(true);
     } catch (error) {
