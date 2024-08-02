@@ -59,3 +59,24 @@
   padding: 5px;
   border-radius: 10px;
 }
+
+.display-input {
+  display: flex;
+  align-items: center;
+  column-gap: 42px;
+  margin-top: 20px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  outline: none;
+  width: 435px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}

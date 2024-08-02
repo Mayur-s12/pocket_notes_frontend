@@ -1,6 +1,7 @@
 .svg-wrapper {
   height: 64px;
   width: 64px;
+  cursor: pointer;
   background-color: #16008b;
   display: flex;
   justify-content: center;
