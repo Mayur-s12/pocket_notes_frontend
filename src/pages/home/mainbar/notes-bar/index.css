@@ -45,9 +45,17 @@
 .text-send-notes {
   height: 30%;
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   background-color: #001f8b;
+}
+
+.send-icon {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  cursor: pointer;
 }
 
 .input-class {
@@ -57,6 +65,7 @@
   align-items: flex-start;
   border-radius: 10px;
   padding: 10px;
+  font-size: 22px;
   border: none;
   outline: none;
 }

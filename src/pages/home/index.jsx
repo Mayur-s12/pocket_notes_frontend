@@ -22,7 +22,7 @@ const Home = () => {
     if (selectedGroup) {
       fetchGroupDetails(selectedGroup._id);
     }
-  }, [selectedGroup]);
+  }, [selectedGroup, notes]);
 
   return (
     <div className='home-container'>
